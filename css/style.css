@@ -1,6 +1,6 @@
-body {
-  font: 100% Helvetica, sans-serif;
-  color: #333;
+header {
+  justify-content:center ;
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
