@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2? family= Shrikhand & display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&amp;display=swap");
+html {
+  font-family: Roboto;
+}
+
 header {
   justify-content: center;
   display: flex;
@@ -17,7 +21,6 @@ header {
 .icon_maps p {
   padding-left: 20px;
   margin: 0;
-  font-family: Roboto;
   font-size: 1.5rem;
 }
 
@@ -38,7 +41,6 @@ body {
   font-weight: normal;
   font-size: 1.3rem;
   text-align: center;
-  line-height: 0%;
 }
 
 .reservez .reserv_btn {
@@ -67,16 +69,15 @@ body {
     font-size: 2.2rem;
   }
 }
-@media all and (max-width: 351px) {
+@media all and (min-width: 961px) {
   #reserv_2 {
     font-size: 1.2rem;
-    flex-direction: column;
   }
 }
 @media all and (max-width: 961px) {
   #reservez {
     width: 40%;
-    font-size: 0.1rem;
+    font-size: 1.2rem;
   }
 }
 /* media querisen tete */
