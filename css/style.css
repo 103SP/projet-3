@@ -24,8 +24,10 @@ header {
   font-size: 1.5rem;
 }
 
-body {
-  background-color: #F3F0ED;
+.reservez {
+  height: 400px;
+  width: 100%;
+  background-color: #F7F6F6;
 }
 
 #reserv_1 {
@@ -66,17 +68,11 @@ body {
 /* media querisen tete */
 @media all and (max-width: 961px) {
   #reserv_1 {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
   }
 }
 @media all and (min-width: 961px) {
   #reserv_2 {
-    font-size: 1.2rem;
-  }
-}
-@media all and (max-width: 961px) {
-  #reservez {
-    width: 40%;
     font-size: 1.2rem;
   }
 }
