@@ -30,7 +30,8 @@ body{
     margin-top: 40px;
     margin-right: 40px;
     margin-bottom: 40px;
-    margin-left: 450px;
+    margin-left: 50px;
+    text-align: center;
   }
   #reserv_2 {
 margin: 0 20px;
@@ -44,7 +45,7 @@ line-height: 0%;
     height: 50px;
     display: flex;
     margin-top: 4%;
-    margin-left: 40%;
+    margin-left: 25%;
     justify-content: center;
     align-items: center;
     text-decoration: none;
@@ -52,9 +53,27 @@ line-height: 0%;
     background: linear-gradient($Second, $Prim);
     color: white;
     box-shadow: 0px 10px 20px #aaa8a8;
-    width: 20%;
   }
   .reservez .reserv_btn:hover {
     background: linear-gradient($second--, $Prim--);
     box-shadow: 5px 10px 20px #929191;
     }
+/* media querisen tete */
+@media all and (max-width:961px){
+  #reserv_1{
+    font-size: 2.2rem;
+}
+}
+@media all and (max-width:351px){
+  #reserv_2{
+    font-size: 1.2rem;
+    flex-direction: column;
+}
+}
+@media all and (max-width:961px){
+  #reservez{
+    width: 40%;
+    font-size: .1rem;
+  }
+}
+/* media querisen tete */
