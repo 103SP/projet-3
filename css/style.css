@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2? family= Shrikhand & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&amp;display=swap");
 html {
   font-family: Roboto;
@@ -76,6 +76,29 @@ header {
     font-size: 1.2rem;
   }
 }
+.fonction .fonction__liste ol li {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  background-color: #f6f6f6;
+  width: 90%;
+  height: 70px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 10px 20px #aaa8a8;
+}
+
+footer {
+  background-color: #320725;
+  min-height: 150px;
+}
+footer h6 {
+  color: #F7F6F6;
+  font-size: 1.3rem;
+  font-family: "Shrikhand";
+}
+
 /* media querisen tete */
 
 /*# sourceMappingURL=style.css.map */
