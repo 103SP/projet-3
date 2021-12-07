@@ -76,20 +76,64 @@ header {
     font-size: 1.2rem;
   }
 }
-.fonction__liste ol li {
+/*fin media querisen tete */
+.fonction {
+  background-color: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.fonction .fonction__liste ol {
+  height: 282px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.fonction .fonction__liste ol li {
   text-decoration: none;
-  color: black;
-  font-size: 1.1rem;
+  color: #A9A9A9;
+  font-size: 1.2rem;
   background-color: #f6f6f6;
   width: 90%;
   height: 70px;
   border-radius: 25px;
   display: flex;
   align-items: center;
-  box-shadow: 0px 10px 20px #aaa8a8;
+  box-shadow: 0px 10px 20px #ececeb;
 }
-.fonction__liste ol li i, .fonction__liste ol li p {
-  margin-left: 30px;
+
+.fonction .fonction__liste ol li p {
+  color: black;
+  padding-left: 8%;
+}
+
+.fonction .fonction__liste ol li i {
+  margin-left: 25px;
+  font-size: 1.3rem;
+}
+
+.fonction .fonction__liste ol li span {
+  background-color: #9356DC;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: -10px;
+}
+
+.fonction .fonction__liste ol li:hover {
+  cursor: pointer;
+  background-color: #f5edff;
+}
+
+.fonction .fonction__liste ol li:hover i {
+  color: #9356DC;
 }
 
 footer {
@@ -101,7 +145,5 @@ footer h6 {
   font-size: 1.3rem;
   font-family: "Shrikhand";
 }
-
-/* media querisen tete */
 
 /*# sourceMappingURL=style.css.map */
