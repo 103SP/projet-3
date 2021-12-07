@@ -76,7 +76,7 @@ header {
     font-size: 1.2rem;
   }
 }
-.fonction .fonction__liste ol li {
+.fonction__liste ol li {
   text-decoration: none;
   color: black;
   font-size: 1.1rem;
@@ -87,6 +87,9 @@ header {
   display: flex;
   align-items: center;
   box-shadow: 0px 10px 20px #aaa8a8;
+}
+.fonction__liste ol li i, .fonction__liste ol li p {
+  margin-left: 30px;
 }
 
 footer {

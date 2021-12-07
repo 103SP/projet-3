@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&amp;display=swap");
 @import"variable.scss";
+@import"mixins.scss";
 html{
   font-family: Roboto;
 }
@@ -73,7 +74,9 @@ text-align: center;
     font-size: 1.2rem;
 }
 }
-.fonction .fonction__liste ol li{
+.fonction{
+
+ &__liste ol li{
   text-decoration: none;
   color: black;
   font-size: 1.1rem;
@@ -84,6 +87,10 @@ text-align: center;
   display: flex;
   align-items: center;
   box-shadow: 0px 10px 20px #aaa8a8;
+  i, p{
+    margin-left: 30px;
+  }
+}
 }
 footer{
   background-color:#320725 ;
