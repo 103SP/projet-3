@@ -127,23 +127,20 @@ text-align: center;
 .fonction .fonction__liste ol li:hover i {
   color: $Prim;
 }
-footer{
-  background-color:#320725 ;
-  min-height: 150px;
-  h6{
-    color: #F7F6F6;
-    font-size: 1.3rem;
-    font-family: "Shrikhand";
-  }
-}
+
 .restaurants{
   width: 100%;
   height: 400px;
+  padding-top: 30px;
   background-color:$colfon ;
-}
 .img{
   width: 100%;
-  height: 50%;
-  border-radius: 20px;
+  height: 200px;
+  border-radius: 20px 20px 0 0;
+
 }
-       
+}
+h3{
+grid-column: 1/1;
+grid-row: 1/1;
+}
