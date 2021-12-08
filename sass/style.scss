@@ -15,7 +15,7 @@ header{
 }
 .icon_maps {
     background-color: $grip;
-    height: 50px;
+    height: $fifty;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,10 +33,10 @@ header{
 }
 #reserv_1 {
 
-    margin-top: 40px;
-    margin-right: 40px;
-    margin-bottom: 40px;
-    margin-left: 50px;
+    margin-top: $forty;
+    margin-right: $forty;
+    margin-bottom: $forty;
+    margin-left: $fifty;
     text-align: center;
   }
   #reserv_2 {
@@ -47,7 +47,7 @@ text-align: center;
   }
   .reservez .reserv_btn {
     width: 50%;
-    height: 50px;
+    height: $fifty;
     display: flex;
     margin-top: 4%;
     margin-left: 25%;
