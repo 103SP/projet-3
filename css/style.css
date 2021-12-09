@@ -64,18 +64,6 @@ header {
   box-shadow: 5px 10px 20px #929191;
 }
 
-/* media querisen tete */
-@media all and (max-width: 961px) {
-  #reserv_1 {
-    font-size: 2.1rem;
-  }
-}
-@media all and (min-width: 961px) {
-  #reserv_2 {
-    font-size: 1.2rem;
-  }
-}
-/*fin media querisen tete */
 .fonction {
   background-color: #fff;
   padding-top: 40px;
@@ -104,10 +92,6 @@ header {
 .fonction__liste ol li p {
   color: black;
   padding-left: 8%;
-}
-.fonction__liste ol li i {
-  margin-left: 25px;
-  font-size: 1.3rem;
 }
 .fonction__liste ol li span {
   background-color: #9356DC;
@@ -183,7 +167,6 @@ figure {
   right: 10px;
   bottom: 230px;
   border-radius: 3px;
-  font-weight: 500;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -224,5 +207,18 @@ footer ul li a, footer ul li i {
   text-decoration: none;
   color: #F7F6F6;
 }
+
+/* media querisen tete */
+@media all and (max-width: 961px) {
+  #reserv_1 {
+    font-size: 2.1rem;
+  }
+}
+@media all and (min-width: 961px) {
+  #reserv_2 {
+    font-size: 1.2rem;
+  }
+}
+/*fin media querisen tete */
 
 /*# sourceMappingURL=style.css.map */
