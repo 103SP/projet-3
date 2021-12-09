@@ -203,3 +203,14 @@ background-color: $colfon ;
   }
 }
 }
+footer{
+  background-color: rgb(58, 58, 58);
+  padding-top: $seventy;
+  padding-bottom: $seventy;
+  img{
+    position: relative;
+    top: -50px;
+    margin-left: 30px;
+    fill: rgb(228, 21, 21);
+  }
+}
