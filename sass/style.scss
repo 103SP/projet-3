@@ -58,11 +58,161 @@ text-align: center;
     background: linear-gradient($Second, $Prim);
     color: white;
     box-shadow: 0px 10px 20px #aaa8a8;
-  }
-  .reservez .reserv_btn:hover {
+  &:hover {
     background: linear-gradient($second--, $Prim--);
     box-shadow: 5px 10px 20px #929191;
     }
+  }
+//*section_2 fonction*//
+.fonction {
+  background-color: #fff;
+  padding-top: $forty;
+  padding-bottom: $forty;
+}
+ .fonction__liste ol {
+  height: 282px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+ li {
+  text-decoration: none;
+  color: #A9A9A9 ;
+  font-size: 1.2rem;
+  background-color: #f6f6f6;
+  width: 90%;
+  height: 70px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 10px 20px $grip;
+ p {
+  color: black ;
+  padding-left: 8%;
+}
+span {
+  background-color: $Prim;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: -10px;
+}
+&:hover {
+  cursor: pointer;
+  background-color: #f5edff;
+ i {
+  color: $Prim;
+    }
+  }
+  }
+}
+
+h3 {
+  width: 50px;
+  border-bottom: 10px;
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+
+figure {
+  margin: 0;
+}
+
+.restaurants {
+padding-top: 20px;
+padding-bottom: 30px;
+background-color: $colfon ;
+
+.restaurants__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .restaurants__box__cart {
+    height: 270px;
+    width: 90%;
+    margin-bottom: 25px;
+    background-color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0px 10px 20px $grip;
+
+    img {
+      border-radius: 25px 25px 0 0;
+      width: 100%;
+      height: 200px;
+    }
+
+    figcaption {
+      height: 75px;
+      display: grid;
+      grid-template-rows: 50% 50%;
+      grid-template-columns: 88% 12%;
+      align-items: center;
+      padding-left: 20px;
+      position: relative;
+
+      samp {
+        position: absolute;
+        width: 27%;
+        height: 45%;
+        background-color: $Ter;
+        color: #278870;
+        right: 10px;
+        bottom: 230px;
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      h4 {
+        grid-column: 1/1;
+        grid-row: 1/1;
+      }
+
+      p {
+        grid-column: 1/1;
+        grid-row: 2/2;
+        margin-top: -5px;
+      }
+    }
+  }
+}
+}
+footer{
+  background-color: rgb(58, 58, 58);
+  padding-left: 2rem;
+  padding-bottom:$forty;
+  display: flex;
+  flex-direction: column;
+  h5{
+    color: $colfon;
+    font-family: "Shrikhand";
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-bottom: 0;
+    
+  }
+  ul{
+    padding: 0;
+    li{
+      list-style: none;
+      padding-bottom: 6px;
+      a, i{
+        margin-right: 20px; ;
+        text-decoration: none;
+        color: $colfon;
+      }
+    }
+  }
+}
 /* media querisen tete */
 @media all and (max-width:961px){
   #reserv_1{
@@ -75,69 +225,3 @@ text-align: center;
 }
 }
 /*fin media querisen tete */
-//*section_2 fonction*//
-.fonction {
-  background-color: #fff;
-  padding-top: $forty;
-  padding-bottom: $forty;
-}
-.fonction .fonction__liste ol {
-  height: 282px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  list-style: none;
-}
-.fonction .fonction__liste ol li {
-  text-decoration: none;
-  color: #A9A9A9 ;
-  font-size: 1.2rem;
-  background-color: #f6f6f6;
-  width: 90%;
-  height: 70px;
-  border-radius: 25px;
-  display: flex;
-  align-items: center;
-  box-shadow: 0px 10px 20px $grip;
-}
-.fonction .fonction__liste ol li p {
-  color: black ;
-  padding-left: 8%;
-}
-.fonction .fonction__liste ol li i {
-  margin-left: 25px;
-  font-size: 1.3rem;
-}
-.fonction .fonction__liste ol li span {
-  background-color: $Prim;
-  border-radius: 50%;
-  width: 22px;
-  height: 22px;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  left: -10px;
-}
-.fonction .fonction__liste ol li:hover {
-  cursor: pointer;
-  background-color: #f5edff;
-}
-.fonction .fonction__liste ol li:hover i {
-  color: $Prim;
-}
-footer{
-  background-color:#320725 ;
-  min-height: 150px;
-  h6{
-    color: #F7F6F6;
-    font-size: 1.3rem;
-    font-family: "Shrikhand";
-  }
-}
-.restaurants{
-  width: 100%;
-  height: 400px;
-  background-color:$colfon ;
-}
