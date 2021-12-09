@@ -174,7 +174,7 @@ figure {
   padding-left: 20px;
   position: relative;
 }
-.restaurants .restaurants__box .restaurants__box__cart figcaption span {
+.restaurants .restaurants__box .restaurants__box__cart figcaption samp {
   position: absolute;
   width: 27%;
   height: 45%;
