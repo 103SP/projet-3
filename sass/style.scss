@@ -205,14 +205,28 @@ background-color: $colfon ;
 }
 footer{
   background-color: rgb(58, 58, 58);
-  padding-top: $seventy;
-  padding-bottom: $seventy;
-  p{
-    color: white;
+  padding-left: 2rem;
+  padding-bottom:$forty;
+  display: flex;
+  flex-direction: column;
+  h5{
+    color: $colfon;
     font-family: "Shrikhand";
     font-size: 1.2rem;
-    position: relative;
-    top: -50px;
-    margin-left: 30px;
+    font-weight: lighter;
+    margin-bottom: 0;
+    
+  }
+  ul{
+    padding: 0;
+    li{
+      list-style: none;
+      padding-bottom: 6px;
+      a, i{
+        margin-right: 20px; ;
+        text-decoration: none;
+        color: $colfon;
+      }
+    }
   }
 }

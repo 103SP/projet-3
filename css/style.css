@@ -200,16 +200,29 @@ figure {
 
 footer {
   background-color: #3a3a3a;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-left: 2rem;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
 }
-footer p {
-  color: white;
+footer h5 {
+  color: #F7F6F6;
   font-family: "Shrikhand";
   font-size: 1.2rem;
-  position: relative;
-  top: -50px;
-  margin-left: 30px;
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+footer ul {
+  padding: 0;
+}
+footer ul li {
+  list-style: none;
+  padding-bottom: 6px;
+}
+footer ul li a, footer ul li i {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #F7F6F6;
 }
 
 /*# sourceMappingURL=style.css.map */
