@@ -207,10 +207,12 @@ footer{
   background-color: rgb(58, 58, 58);
   padding-top: $seventy;
   padding-bottom: $seventy;
-  img{
+  p{
+    color: white;
+    font-family: "Shrikhand";
+    font-size: 1.2rem;
     position: relative;
     top: -50px;
     margin-left: 30px;
-    fill: rgb(228, 21, 21);
   }
 }
