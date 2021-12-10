@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="libs/fontawesome-free-6.0.0-beta3-web/css/all.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
     <title>ohmyfood</title>
 </head>
 
@@ -16,10 +16,10 @@
     </header>
     <main>
         <section class="reservez">
-        <div class="icon_maps" >
-            <i class="fas fa-map-marker-alt"></i>
-            <p>Paris,Belleville</p>
-        </div>   
+            <div class="icon_maps">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Paris,Belleville</p>
+            </div>
             <h1 id="reserv_1">Réservez le menu qui vous convient</h1>
             <p id="reserv_2">Découvrez des restaurants d'exception, séléctionnés par nos soins. </p>
             <a href="" class="reserv_btn">Explorer nos restaurants</a>
@@ -27,86 +27,88 @@
         <section class="fonction">
             <h2>Fonctionnement</h2>
             <div class="fonction__liste">
-              <ol>
-                <li>
-                  <span>1</span>
-                  <i class="fas fa-mobile-alt"></i>
-                  <p>Choisissez un restaurant</p>
-                </li>
-                <li>
-                  <span>2</span>
-                  <i class="fas fa-list-ul"></i>
-                  <p>Composez votre menu</p>
-                </li>
-                <li class="lispe">
-                  <span>3</span>
-                  <i class="fas fa-store"></i>
-                  <p>Dégustez au restaurant</p>
-                </li>
-              </ol>
+                <ol>
+                    <li>
+                        <span>1</span>
+                        <i class="fas fa-mobile-alt"></i>
+                        <p>Choisissez un restaurant</p>
+                    </li>
+                    <li>
+                        <span>2</span>
+                        <i class="fas fa-list-ul"></i>
+                        <p>Composez votre menu</p>
+                    </li>
+                    <li class="lispe">
+                        <span>3</span>
+                        <i class="fas fa-store"></i>
+                        <p>Dégustez au restaurant</p>
+                    </li>
+                </ol>
             </div>
-          </section>
-          <section class="restaurants">
+        </section>
+        <section class="restaurants">
             <h3>Restaurants</h3>
-               <div class="restaurants__box">
-                  <a href="" class="restaurants__box__cart" >
+            <div class="restaurants__box">
+                <a href="" class="restaurants__box__cart">
                     <figure>
-                    <img class="img" src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
-              <figcaption>
-                <samp class="nouveau" >Nouveau</samp>
-                    <h4>La palette du goût</h4>
-                    <p>Ménilmontant</p>
-            </figcaption>
-                  </figure>
+                        <img class="img" src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
+                        <figcaption>
+                            <samp class="nouveau">Nouveau</samp>
+                            <h4>La palette du goût</h4>
+                            <p>Ménilmontant</p>
+                            <i class="far fa-heart"></i>
+                        </figcaption>
+                    </figure>
                 </a>
-                <a href="" class="restaurants__box__cart" >
-                  <figure>
-                  <img class="img" src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="">
-            <figcaption>
-              <samp class="nouveau">Nouveau</samp>                    <h4>La palette du goût</h4>
-                    <p>Ménilmontant</p>
-            </figcaption>
-                  </figure>
+                <a href="" class="restaurants__box__cart">
+                    <figure>
+                        <img class="img" src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="">
+                        <figcaption>
+                            <samp class="nouveau">Nouveau</samp>
+                            <h4>La palette du goût</h4>
+                            <p>Ménilmontant</p>
+                        </figcaption>
+                    </figure>
                 </a>
-                <a href="" class="restaurants__box__cart" >
-                  <figure>
-                  <img class="img" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="">
-            <figcaption>
-                    <h4>La palette du goût</h4>
-                    <p>Ménilmontant</p>
-            </figcaption>
-                  </figure>
+                <a href="" class="restaurants__box__cart">
+                    <figure>
+                        <img class="img" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="">
+                        <figcaption>
+                            <h4>La palette du goût</h4>
+                            <p>Ménilmontant</p>
+                        </figcaption>
+                    </figure>
                 </a>
-                <a href="" class="restaurants__box__cart" >
-                  <figure>
-                  <img class="img" src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="">
-            <figcaption>
-                    <h4>La palette du goût</h4>
-                    <p>Ménilmontant</p>
-            </figcaption>
-                  </figure>
+                <a href="" class="restaurants__box__cart">
+                    <figure>
+                        <img class="img" src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="">
+                        <figcaption>
+                            <h4>La palette du goût</h4>
+                            <p>Ménilmontant</p>
+                        </figcaption>
+                    </figure>
                 </a>
-            <div>
-          </section>
-        </main>
-           <footer>
-                <h5>ohmyfood</h5>
-                  <ul>
-                      <li>
-               <a href=""><i class="fas fa-utensils"></i>Proposer un restaurant</a>
-                      </li>
-                  <ul>
-                      <li>
-                 <a href=""><i class="fas fa-hands-helping"></i></i>Devenir partenaire</a>
-                      </li>
-                      <li>
-                  <a href="">Mentions légales</a>      
-                      </li>
-                      <li>
-                        <a href="mailto:103spkit@gmail.com"> Coontact</a>
-                      </li>
-                  </ul>
-           </footer>
-        </body>
+                <div>
+        </section>
+    </main>
+    <footer>
+        <h5>ohmyfood</h5>
+        <ul>
+            <li>
+                <a href=""><i class="fas fa-utensils"></i>Proposer un restaurant</a>
+            </li>
+            <ul>
+                <li>
+                    <a href=""><i class="fas fa-hands-helping"></i></i>Devenir partenaire</a>
+                </li>
+                <li>
+                    <a href="">Mentions légales</a>
+                </li>
+                <li>
+                    <a href="mailto:103spkit@gmail.com"> Coontact</a>
+                </li>
+            </ul>
 
-      </html>
+</body>
+
+</html>
