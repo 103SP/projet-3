@@ -73,7 +73,7 @@ header {
 .far {
   width: 30px;
   position: relative;
-  top: auto;
+  top: 10px;
   align-items: center;
   background: linear #FF79DA, #9356DC;
 }
