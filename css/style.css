@@ -70,6 +70,17 @@ header {
   padding-bottom: 40px;
 }
 
+.far {
+  width: 30px;
+  position: relative;
+  top: auto;
+  align-items: center;
+  background: linear #FF79DA, #9356DC;
+}
+.far:hover {
+  background: linear-gradient(#ff93e1, #a16be0);
+}
+
 .fonction__liste ol {
   height: 282px;
   display: flex;

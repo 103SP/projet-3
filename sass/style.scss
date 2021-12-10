@@ -73,6 +73,17 @@ header {
     padding-bottom: $forty;
 }
 
+.far {
+    width: 30px;
+    position: relative;
+    top: auto;
+    align-items: center;
+    background: linear ($Second, $Prim);
+    &:hover {
+        background: linear-gradient($second--, $Prim--);
+    }
+}
+
 .fonction__liste ol {
     height: 282px;
     display: flex;
