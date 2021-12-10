@@ -202,7 +202,8 @@ footer ul li {
   list-style: none;
   padding-bottom: 6px;
 }
-footer ul li a, footer ul li i {
+footer ul li a,
+footer ul li i {
   margin-right: 20px;
   text-decoration: none;
   color: #F7F6F6;
