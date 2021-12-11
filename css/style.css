@@ -13,14 +13,21 @@ header {
   margin-bottom: 20px;
 }
 
-/*section header logo fin*/
+/*\\\\\\section header logo fin//////*/
 /*section image bdg en tête*/
 .img__bg {
   height: 250px;
   width: 100%;
 }
 
-/*section image bdg en tête fin*/
+/*\\\\\\section image bdg en tête fin//////*/
+h1 {
+  align-items: center;
+  display: flex;
+  font-family: "Shrikhand";
+  font-size: 2rem;
+}
+
 .icon_maps {
   background-color: #ececeb;
   height: 50px;

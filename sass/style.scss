@@ -17,7 +17,7 @@ header {
 }
 
 
-/*section header logo fin*/
+/*\\\\\\section header logo fin//////*/
 
 
 /*section image bdg en tête*/
@@ -28,7 +28,14 @@ header {
 }
 
 
-/*section image bdg en tête fin*/
+/*\\\\\\section image bdg en tête fin//////*/
+
+h1 {
+    align-items: center;
+    display: flex;
+    font-family: "Shrikhand";
+    font-size: 2rem;
+}
 
 .icon_maps {
     background-color: $grip;
