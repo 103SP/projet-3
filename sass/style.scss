@@ -6,12 +6,29 @@ html {
     font-family: Roboto;
 }
 
+
+/*section header logo*/
+
 header {
     justify-content: center;
     display: flex;
     margin-top: 30px;
     margin-bottom: 20px;
 }
+
+
+/*section header logo fin*/
+
+
+/*section image bdg en tête*/
+
+.img__bg {
+    height: 50px;
+    width: 100%;
+}
+
+
+/*section image bdg en tête fin*/
 
 .icon_maps {
     background-color: $grip;

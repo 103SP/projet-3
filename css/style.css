@@ -1,9 +1,11 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&amp;display=swap");
 html {
   font-family: Roboto;
 }
 
+/*section header logo*/
 header {
   justify-content: center;
   display: flex;
@@ -11,6 +13,14 @@ header {
   margin-bottom: 20px;
 }
 
+/*section header logo fin*/
+/*section image bdg en tête*/
+.img__bg {
+  height: 50px;
+  width: 100%;
+}
+
+/*section image bdg en tête fin*/
 .icon_maps {
   background-color: #ececeb;
   height: 50px;
