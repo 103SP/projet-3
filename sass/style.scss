@@ -30,11 +30,15 @@ header {
 
 /*\\\\\\section image bdg en tête fin//////*/
 
-h1 {
-    align-items: center;
-    display: flex;
+.pilote {
+    border-radius: 20px 20px 0 0;
     font-family: "Shrikhand";
-    font-size: 2rem;
+    background-color: $grip;
+    h1 {
+        align-items: center;
+        display: flex;
+        font-size: 2rem;
+    }
 }
 
 .icon_maps {

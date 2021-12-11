@@ -21,10 +21,14 @@ header {
 }
 
 /*\\\\\\section image bdg en tête fin//////*/
-h1 {
+.pilote {
+  border-radius: 20px 20px 0 0;
+  font-family: "Shrikhand";
+  background-color: #ececeb;
+}
+.pilote h1 {
   align-items: center;
   display: flex;
-  font-family: "Shrikhand";
   font-size: 2rem;
 }
 
