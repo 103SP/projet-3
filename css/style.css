@@ -141,8 +141,6 @@ h3 {
   font-weight: 400;
 }
 
-/*controle coeur debut*/
-/*controle coeur fin*/
 figure {
   margin: 0;
 }
@@ -179,6 +177,7 @@ figure {
   align-items: center;
   padding-left: 20px;
   position: relative;
+  /*////////////controle coeur debut\\\\\\\\\*/
 }
 .restaurants .restaurants__box .restaurants__box__cart figcaption samp {
   position: absolute;
@@ -226,6 +225,7 @@ figure {
   right: 25px;
   bottom: 25px;
   opacity: 1;
+  /*//////////controle coeur \\\\\\\\\\\fin*/
 }
 
 footer {
