@@ -184,6 +184,7 @@ figure {
                 align-items: center;
                 padding-left: 20px;
                 position: relative;
+                /*////////////nouveau debut\\\\\\\\\*/
                 samp {
                     position: absolute;
                     width: 27%;
@@ -197,6 +198,7 @@ figure {
                     justify-content: center;
                     align-items: center;
                 }
+                /*//////////nouveau \\\\\\\\\\\fin*/
                 h4 {
                     grid-column: 1/1;
                     grid-row: 1/1;
