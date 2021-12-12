@@ -22,7 +22,7 @@ header {
 
 /*\\\\\\section image bdg en tête fin//////*/
 .pilote {
-  border-radius: 20px 20px 0 0;
+  border-radius: 25px 25px 0 0;
   font-family: "Shrikhand";
   background-color: #ececeb;
 }
@@ -91,17 +91,6 @@ header {
   padding-bottom: 40px;
 }
 
-.far {
-  width: 30px;
-  position: relative;
-  top: 10px;
-  align-items: center;
-  background: linear #FF79DA, #9356DC;
-}
-.far:hover {
-  background: linear-gradient(#ff93e1, #a16be0);
-}
-
 .fonction__liste ol {
   height: 282px;
   display: flex;
@@ -152,6 +141,8 @@ h3 {
   font-weight: 400;
 }
 
+/*controle coeur debut*/
+/*controle coeur fin*/
 figure {
   margin: 0;
 }
@@ -170,7 +161,6 @@ figure {
   height: 270px;
   width: 90%;
   margin-bottom: 25px;
-  background-color: white;
   border-radius: 25px;
   text-decoration: none;
   color: black;
@@ -211,6 +201,31 @@ figure {
   grid-column: 1/1;
   grid-row: 2/2;
   margin-top: -5px;
+}
+.restaurants .restaurants__box .restaurants__box__cart figcaption .coeurpilote:hover .fas.fa-heart {
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+}
+.restaurants .restaurants__box .restaurants__box__cart figcaption .coeurpilote:hover .far.fa-heart {
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+.restaurants .restaurants__box .restaurants__box__cart figcaption .fas.fa-heart {
+  font-size: 1.5rem;
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+  background: linear-gradient(#FF79DA, #9356DC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+}
+.restaurants .restaurants__box .restaurants__box__cart figcaption .far.fa-heart {
+  font-size: 1.5rem;
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+  opacity: 1;
 }
 
 footer {
