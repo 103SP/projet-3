@@ -1,35 +1,14 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&amp;display=swap");
 html {
   font-family: Roboto;
 }
 
-/*section header logo*/
 header {
   justify-content: center;
   display: flex;
   margin-top: 30px;
   margin-bottom: 20px;
-}
-
-/*\\\\\\section header logo fin//////*/
-/*section image bdg en tête*/
-.img__bg {
-  height: 250px;
-  width: 100%;
-}
-
-/*\\\\\\section image bdg en tête fin//////*/
-.pilote {
-  border-radius: 25px 25px 0 0;
-  font-family: "Shrikhand";
-  background-color: #ececeb;
-}
-.pilote h1 {
-  align-items: center;
-  display: flex;
-  font-size: 2rem;
 }
 
 .icon_maps {
@@ -89,6 +68,35 @@ header {
   background-color: #fff;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.coeurpilote:hover .fas.fa-heart {
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+}
+.coeurpilote:hover .far.fa-heart {
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.fas.fa-heart {
+  font-size: 1.5rem;
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+  background: linear-gradient(#FF79DA, #9356DC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+}
+
+.far.fa-heart {
+  font-size: 1.5rem;
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+  opacity: 1;
+  /*//////////controle coeur \\\\\\\\\\\fin*/
 }
 
 .fonction__liste ol {
@@ -159,6 +167,7 @@ figure {
   height: 270px;
   width: 90%;
   margin-bottom: 25px;
+  background-color: white;
   border-radius: 25px;
   text-decoration: none;
   color: black;
@@ -177,9 +186,6 @@ figure {
   align-items: center;
   padding-left: 20px;
   position: relative;
-  /*////////////nouveau debut\\\\\\\\\*/
-  /*//////////nouveau \\\\\\\\\\\fin*/
-  /*////////////controle coeur debut\\\\\\\\\*/
 }
 .restaurants .restaurants__box .restaurants__box__cart figcaption samp {
   position: absolute;
@@ -202,32 +208,6 @@ figure {
   grid-column: 1/1;
   grid-row: 2/2;
   margin-top: -5px;
-}
-.restaurants .restaurants__box .restaurants__box__cart figcaption .coeurpilote:hover .fas.fa-heart {
-  opacity: 1;
-  transition: 0.3s ease-in-out;
-}
-.restaurants .restaurants__box .restaurants__box__cart figcaption .coeurpilote:hover .far.fa-heart {
-  opacity: 0;
-  transition: 0.3s ease-in-out;
-}
-.restaurants .restaurants__box .restaurants__box__cart figcaption .fas.fa-heart {
-  font-size: 1.5rem;
-  position: absolute;
-  right: 25px;
-  bottom: 25px;
-  background: linear-gradient(#FF79DA, #9356DC);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  opacity: 0;
-}
-.restaurants .restaurants__box .restaurants__box__cart figcaption .far.fa-heart {
-  font-size: 1.5rem;
-  position: absolute;
-  right: 25px;
-  bottom: 25px;
-  opacity: 1;
-  /*//////////controle coeur \\\\\\\\\\\fin*/
 }
 
 footer {
@@ -256,6 +236,58 @@ footer ul li i {
   margin-right: 20px;
   text-decoration: none;
   color: #F7F6F6;
+}
+
+/*////////page2\\\\\\*/
+.img__bg {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+.fond__pilote {
+  position: relative;
+  background-color: #ececeb;
+  border-radius: 45px 45px 0px 0px;
+  margin-top: -50px;
+  padding-bottom: 10px;
+}
+
+.pilote {
+  margin: 0px 20px;
+}
+
+.titre__h1 {
+  font-family: "Shrikhand";
+  font-size: 1.75rem;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.pilote .coeurpilote:hover .fas.fa-heart {
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+}
+.pilote .coeurpilote:hover .far.fa-heart {
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+.pilote .fas.fa-heart {
+  font-size: 1.5rem;
+  position: absolute;
+  right: 25px;
+  top: 30px;
+  background: linear-gradient(#FF79DA, #9356DC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+}
+.pilote .far.fa-heart {
+  font-size: 1.5rem;
+  position: absolute;
+  right: 25px;
+  top: 30px;
+  opacity: 1;
 }
 
 /* media querisen tete */
