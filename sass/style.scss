@@ -327,6 +327,9 @@ footer {
     border-radius: 20px;
     display: flex;
     .menu__plat {
+        width: 50%;
+        height: 50%;
+        display: flex;
         .menu__ingrédients {
             .menu__prix {}
         }

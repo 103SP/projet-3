@@ -307,6 +307,11 @@ footer ul li i {
   border-radius: 20px;
   display: flex;
 }
+.menu__font .menu__plat {
+  width: 50%;
+  height: 50%;
+  display: flex;
+}
 /*//////////controle coeur page 2 \\\\\\\\\\\fin*/
 /* media querisen tete */
 @media all and (max-width: 961px) {
