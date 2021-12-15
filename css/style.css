@@ -348,7 +348,19 @@ footer ul li i {
   opacity: 1;
 }
 
-/*//////////controle coeur page 2 \\\\\\\\\\\fin*/
+/*/////////*********animation**********\\\\\\\\\\\*/
+.menu__animat {
+  background-color: chartreuse;
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 50px;
+}
+
+/*/////////*********animation**********\\\\\\\\\\\
+
+/*/
 /* media querisen tete */
 @media all and (max-width: 961px) {
   #reserv_1 {
