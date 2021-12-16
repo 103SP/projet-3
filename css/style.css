@@ -355,11 +355,12 @@ footer ul li i {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right: 50px;
+  padding-right: 20px;
 }
-.menu__animat .menu__e {
+.menu__animat i {
   color: white;
-  margin-left: 40px;
+  margin-left: 20px;
+  font-size: 25px;
 }
 
 /*/////////*********animation**********\\\\\\\\\\\
