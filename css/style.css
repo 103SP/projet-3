@@ -302,7 +302,7 @@ footer ul li i {
 }
 
 .menu__prix {
-  padding-left: 30px;
+  padding-left: 70px;
   font-weight: bold;
 }
 
@@ -319,6 +319,7 @@ footer ul li i {
   grid-template-columns: 80% 20%;
   grid-template-rows: 50% 40%;
   align-items: center;
+  position: relative;
 }
 
 /*//////////controle coeur debut \\\\\\\\\\\*/
@@ -356,11 +357,25 @@ footer ul li i {
   justify-content: center;
   align-items: center;
   padding-right: 20px;
+  overflow: hidden;
+  transform: translateX(90px);
+  transition-duration: 1.2s;
 }
-.menu__animat i {
+.menu__animat .menu__i {
   color: white;
   margin-left: 20px;
   font-size: 25px;
+  opacity: 1;
+}
+
+.menu__font:hover .menu__animat {
+  transform: translateX(0px);
+  transition: 0.5s ease-in-out;
+}
+
+.menu__i :hover {
+  transform: rotate(360deg);
+  transition: rotate 1.5s ease-in-out;
 }
 
 /*/////////*********animation**********\\\\\\\\\\\
