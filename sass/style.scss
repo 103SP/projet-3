@@ -388,13 +388,16 @@ footer {
 .menu__font:hover .menu__animat {
     transform: translateX(0px);
     transition: 0.5s ease-in-out;
+    .menu__i {
+        transform: rotate(180deg);
+        transition: 0.5s ease-in-out;
+    }
 }
 
-.menu__i :hover {
-    transform: rotate(360deg);
-    transition: rotate 1.5s ease-in-out;
-}
-
+// .menu__i :hover {
+//     transform: rotate(180deg);
+//     transition: rotate 1.5s ease-in-out;
+// }
 
 /*/////////*********animation**********\\\\\\\\\\\
 
