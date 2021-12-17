@@ -288,10 +288,10 @@ footer ul li i {
 }
 
 .titre__h4 {
-  color: black;
   width: 200px;
   height: 0px;
   padding-left: 10px;
+  padding-bottom: 10px;
   font-size: 1.2rem;
 }
 
@@ -302,7 +302,7 @@ footer ul li i {
 }
 
 .menu__prix {
-  padding-left: 70px;
+  padding-left: 20px;
   font-weight: bold;
 }
 
@@ -352,21 +352,25 @@ footer ul li i {
 
 /*/////////*********animation**********\\\\\\\\\\\*/
 .menu__animat {
-  background-color: #99e2d0;
-  border-radius: 0 10px 10px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-right: 20px;
+  position: absolute;
+  background-color: #99E2D0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 65px;
+  transform-origin: right 50%;
+  border-radius: 0px 20px 20px 0px;
+  transform: translateX(65px);
   overflow: hidden;
-  transform: translateX(90px);
-  transition-duration: 1.2s;
+  transition-duration: 0.5s;
 }
 .menu__animat .menu__i {
+  left: 20px;
+  top: 25px;
+  font-size: 1.5rem;
   color: white;
-  margin-left: 20px;
-  font-size: 25px;
   opacity: 1;
+  position: absolute;
 }
 
 .menu__font:hover .menu__animat {
@@ -374,12 +378,12 @@ footer ul li i {
   transition: 0.5s ease-in-out;
 }
 .menu__font:hover .menu__animat .menu__i {
-  transform: rotate(180deg);
+  transform: rotate(360deg);
   transition: 0.5s ease-in-out;
 }
 
 .menu__font:hover .menu__plat {
-  grid-template-columns: 60% 20% 20%;
+  grid-template-columns: 60% 0% 10%;
 }
 
 /*/////////*********animation**********\\\\\\\\\\\
