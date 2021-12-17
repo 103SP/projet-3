@@ -312,6 +312,7 @@ footer ul li i {
   border-radius: 20px;
   display: flex;
   overflow: hidden;
+  margin: 0 15px 15px 0;
 }
 .menu__font .menu__plat {
   width: 100%;
