@@ -299,6 +299,9 @@ footer ul li i {
   grid-column: 1/1;
   font-size: 1rem;
   padding-left: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .menu__prix {
