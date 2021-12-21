@@ -362,6 +362,29 @@ footer ul li i {
   position: relative;
 }
 
+.fond__pilote :nth-child(1) {
+  animation: pilot 0.4s ease-in-out;
+}
+.fond__pilote :nth-child(2) {
+  animation: pilot 1s ease-in-out;
+}
+.fond__pilote :nth-child(3) {
+  animation: pilot 1.4s ease-in-out;
+}
+.fond__pilote :nth-child(4) {
+  animation: pilot 1.8s ease-in-out;
+}
+@keyframes pilot {
+  from {
+    transform: translateY(70px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
 /*//////////controle coeur debut \\\\\\\\\\\*/
 .pilote .coeurpilote:hover .fas.fa-heart {
   opacity: 1;

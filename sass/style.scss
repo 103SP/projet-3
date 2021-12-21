@@ -1,276 +1,66 @@
-@import url("https://fonts.googleapis.com/css2?family=Shrikhand&amp;display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&amp;display=swap");
-@import"variable.scss";
-@import"mixins.scss";
-html {
-    font-family: Roboto;
-}
-
-body {
-    margin: 0;
-}
-
-header {
-    justify-content: center;
-    display: flex;
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-
-.btn__retour {
-    font-size: 1.2rem;
-    position: absolute;
-    left: 40px;
-    top: 40px;
-    color: black;
-}
-
-.icon_maps {
-    background-color: $grip;
-    height: $fifty;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    p {
-        padding-left: 20px;
+    @import url("https://fonts.googleapis.com/css2?family=Shrikhand&amp;display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&amp;display=swap");
+    @import"variable.scss";
+    @import"mixins.scss";
+    html {
+        font-family: Roboto;
+    }
+    
+    body {
         margin: 0;
-        font-size: 1.5rem;
     }
-}
-
-.reservez {
-    height: 400px;
-    width: 100%;
-    background-color: $colfon;
-}
-
-#reserv_1 {
-    margin-top: $forty;
-    margin-right: $forty;
-    margin-bottom: $forty;
-    margin-left: $fifty;
-    text-align: center;
-}
-
-#reserv_2 {
-    margin: 0 20px;
-    font-weight: normal;
-    font-size: 1.3rem;
-    text-align: center;
-}
-
-.reservez .reserv_btn {
-    width: 50%;
-    height: $fifty;
-    display: flex;
-    margin-top: 4%;
-    margin-left: 25%;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    border-radius: 25px;
-    background: linear-gradient($Second, $Prim);
-    color: white;
-    box-shadow: 0px 10px 20px #aaa8a8;
-    &:hover {
-        background: linear-gradient($second--, $Prim--);
-        box-shadow: 5px 10px 20px #929191;
+    
+    header {
+        justify-content: center;
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 20px;
     }
-}
-
-//*section_2 fonction*//
-.fonction {
-    background-color: #fff;
-    padding-top: $forty;
-    padding-bottom: $forty;
-}
-
-
-/*//////////controle coeur debut \\\\\\\\\\\*/
-
-.coeurpilote:hover {
-    .fas.fa-heart {
-        opacity: 1;
-        transition: 0.3s ease-in-out;
-    }
-    .far.fa-heart {
-        opacity: 0;
-        transition: 0.3s ease-in-out;
-    }
-}
-
-.fas.fa-heart {
-    font-size: 1.5rem;
-    position: absolute;
-    right: 25px;
-    bottom: 25px;
-    background: linear-gradient($Second, $Prim);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    opacity: 0;
-}
-
-.far.fa-heart {
-    font-size: 1.5rem;
-    position: absolute;
-    right: 25px;
-    bottom: 25px;
-    opacity: 1;
-    /*//////////controle coeur \\\\\\\\\\\fin*/
-}
-
-.fonction__liste ol {
-    height: 282px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    list-style: none;
-    li {
-        text-decoration: none;
-        color: #A9A9A9;
+    
+    .btn__retour {
         font-size: 1.2rem;
-        background-color: #f6f6f6;
-        width: 90%;
-        height: 70px;
-        border-radius: 25px;
+        position: absolute;
+        left: 40px;
+        top: 40px;
+        color: black;
+    }
+    
+    .icon_maps {
+        background-color: $grip;
+        height: $fifty;
         display: flex;
         align-items: center;
-        box-shadow: 0px 10px 20px $grip;
+        justify-content: center;
         p {
-            color: black;
-            padding-left: 8%;
-        }
-        span {
-            background-color: $Prim;
-            border-radius: 50%;
-            width: 22px;
-            height: 22px;
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-            left: -10px;
-        }
-        &:hover {
-            cursor: pointer;
-            background-color: #f5edff;
-            i {
-                color: $Prim;
-            }
+            padding-left: 20px;
+            margin: 0;
+            font-size: 1.5rem;
         }
     }
-}
-
-h3 {
-    width: 50px;
-    border-bottom: 10px;
-    padding-bottom: 10px;
-    font-weight: 400;
-}
-
-h6 {
-    width: 50px;
-    font-weight: 400;
-    padding-bottom: 10px;
-    border-bottom: 3px solid $Ter;
-}
-
-figure {
-    margin: 0;
-}
-
-.restaurants {
-    padding-top: 20px;
-    padding-bottom: 30px;
-    background-color: $colfon;
-    .restaurants__box {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        .restaurants__box__cart {
-            height: 270px;
-            width: 90%;
-            margin-bottom: 25px;
-            background-color: white;
-            border-radius: 25px;
-            text-decoration: none;
-            color: black;
-            box-shadow: 0px 10px 20px $grip;
-            img {
-                border-radius: 25px 25px 0 0;
-                width: 100%;
-                height: 200px;
-            }
-            figcaption {
-                height: 75px;
-                display: grid;
-                grid-template-rows: 50% 50%;
-                grid-template-columns: 88% 12%;
-                align-items: center;
-                padding-left: 20px;
-                position: relative;
-                samp {
-                    position: absolute;
-                    width: 27%;
-                    height: 45%;
-                    background-color: $Ter;
-                    color: #278870;
-                    right: 10px;
-                    bottom: 230px;
-                    border-radius: 3px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                }
-                h4 {
-                    grid-column: 1/1;
-                    grid-row: 1/1;
-                }
-                p {
-                    grid-column: 1/1;
-                    grid-row: 2/2;
-                    margin-top: -5px;
-                }
-            }
-        }
+    
+    .reservez {
+        height: 400px;
+        width: 100%;
+        background-color: $colfon;
     }
-}
-
-footer {
-    background-color: rgb(58, 58, 58);
-    padding-left: 2rem;
-    padding-bottom: $forty;
-    display: flex;
-    flex-direction: column;
-    h5 {
-        color: $colfon;
-        font-family: "Shrikhand";
-        font-size: 1.2rem;
-        font-weight: lighter;
-        margin-bottom: 0;
+    
+    #reserv_1 {
+        margin-top: $forty;
+        margin-right: $forty;
+        margin-bottom: $forty;
+        margin-left: $fifty;
+        text-align: center;
     }
-    ul {
-        padding: 0;
-        li {
-            list-style: none;
-            padding-bottom: 6px;
-            a,
-            i {
-                margin-right: 20px;
-                ;
-                text-decoration: none;
-                color: $colfon;
-            }
-        }
+    
+    #reserv_2 {
+        margin: 0 20px;
+        font-weight: normal;
+        font-size: 1.3rem;
+        text-align: center;
     }
-}
-
-.btn__menu {
-    height: 100px;
-    margin-top: 50px;
-    .menu__btn {
-        width: 35%;
+    
+    .reservez .reserv_btn {
+        width: 50%;
         height: $fifty;
         display: flex;
         margin-top: 4%;
@@ -287,94 +77,15 @@ footer {
             box-shadow: 5px 10px 20px #929191;
         }
     }
-}
-
-
-/*////////page2\\\\\\*/
-
-.img__bg {
-    width: 100%;
-    height: 230px;
-    object-fit: cover;
-}
-
-.fond__pilote {
-    position: relative;
-    background-color: $grip;
-    border-radius: 45px 45px 0px 0px;
-    margin-top: -50px;
-    padding-bottom: 10px;
-    .pilote {
-        margin: 0px 20px;
+    
+    //*section_2 fonction*//
+    .fonction {
+        background-color: #fff;
+        padding-top: $forty;
+        padding-bottom: $forty;
     }
-}
-
-.titre__h1 {
-    font-family: "Shrikhand";
-    font-size: 1.75rem;
-    margin: 0;
-    padding-top: 20px;
-}
-
-.titre__h2 {
-    width: 60px;
-    border-bottom: 3px solid #99e2d0;
-    padding-bottom: 5px;
-    color: #3a3a3a;
-    font-weight: 400;
-}
-
-.titre__h3 {
-    margin: 0;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.titre__h4 {
-    width: 300px;
-    height: 0px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    font-size: 1.2rem;
-}
-
-.menu__ingrédients {
-    grid-column: 1/1;
-    font-size: 1rem;
-    padding-left: 10px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-
-.menu__prix {
-    padding-left: 20px;
-    font-weight: bold;
-}
-
-.menu__font {
-    background-color: white;
-    height: 80px;
-    border-radius: 20px;
-    display: flex;
-    overflow: hidden;
-    margin: 0 15px 15px 0;
-    .menu__plat {
-        width: 100%;
-        height: 100%;
-        display: grid;
-        grid-template-columns: 80% 20% 0%;
-        grid-template-rows: 50% 40%;
-        align-items: center;
-        position: relative;
-    }
-}
-
-
-/*//////////controle coeur debut \\\\\\\\\\\*/
-
-.pilote {
+    /*//////////controle coeur debut \\\\\\\\\\\*/
+    
     .coeurpilote:hover {
         .fas.fa-heart {
             opacity: 1;
@@ -385,87 +96,389 @@ footer {
             transition: 0.3s ease-in-out;
         }
     }
+    
     .fas.fa-heart {
         font-size: 1.5rem;
         position: absolute;
-        right: 50px;
-        top: 30px;
+        right: 25px;
+        bottom: 25px;
         background: linear-gradient($Second, $Prim);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         opacity: 0;
     }
+    
     .far.fa-heart {
         font-size: 1.5rem;
         position: absolute;
-        right: 50px;
-        top: 30px;
+        right: 25px;
+        bottom: 25px;
         opacity: 1;
+        /*//////////controle coeur \\\\\\\\\\\fin*/
     }
-}
-
-
-/*/////////*********animation**********\\\\\\\\\\\*/
-
-.menu__animat {
-    position: absolute;
-    background-color: #99E2D0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    width: 65px;
-    transform-origin: right 50%;
-    border-radius: 0px 20px 20px 0px;
-    transform: translateX(65px);
-    overflow: hidden;
-    transition-duration: 0.5s;
-    .menu__i {
-        left: 20px;
-        top: 25px;
-        font-size: 1.5rem;
-        color: white;
-        opacity: 1;
-        position: absolute;
+    
+    .fonction__liste ol {
+        height: 282px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        list-style: none;
+        li {
+            text-decoration: none;
+            color: #A9A9A9;
+            font-size: 1.2rem;
+            background-color: #f6f6f6;
+            width: 90%;
+            height: 70px;
+            border-radius: 25px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0px 10px 20px $grip;
+            p {
+                color: black;
+                padding-left: 8%;
+            }
+            span {
+                background-color: $Prim;
+                border-radius: 50%;
+                width: 22px;
+                height: 22px;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                left: -10px;
+            }
+            &:hover {
+                cursor: pointer;
+                background-color: #f5edff;
+                i {
+                    color: $Prim;
+                }
+            }
+        }
     }
-}
-
-.menu__font:hover .menu__animat {
-    transform: translateX(0px);
-    transition: 0.5s ease-in-out;
-    .menu__i {
-        transform: rotate(360deg);
-        transition: 0.5s ease-in-out;
+    
+    h3 {
+        width: 50px;
+        border-bottom: 10px;
+        padding-bottom: 10px;
+        font-weight: 400;
     }
-}
-
-.menu__font:hover {
-    .menu__plat {
-        grid-template-columns: 60% 0% 10%;
+    
+    h6 {
+        width: 50px;
+        font-weight: 400;
+        padding-bottom: 10px;
+        border-bottom: 3px solid $Ter;
     }
-}
-
-// .menu__i :hover {
-//     transform: rotate(180deg);
-//     transition: rotate 1.5s ease-in-out;
-// }
-
-/*/////////*********animation**********\\\\\\\\\\\
-
-/*/ /////////controle coeur page 2 \\\\\\\\\\\fin*/
-
-/* media querisen tete */
-
-@media all and (max-width:961px) {
-    #reserv_1 {
-        font-size: 2.1rem;
+    
+    figure {
+        margin: 0;
     }
-}
-
-@media all and (min-width:961px) {
-    #reserv_2 {
+    
+    .restaurants {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        background-color: $colfon;
+        .restaurants__box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .restaurants__box__cart {
+                height: 270px;
+                width: 90%;
+                margin-bottom: 25px;
+                background-color: white;
+                border-radius: 25px;
+                text-decoration: none;
+                color: black;
+                box-shadow: 0px 10px 20px $grip;
+                img {
+                    border-radius: 25px 25px 0 0;
+                    width: 100%;
+                    height: 200px;
+                }
+                figcaption {
+                    height: 75px;
+                    display: grid;
+                    grid-template-rows: 50% 50%;
+                    grid-template-columns: 88% 12%;
+                    align-items: center;
+                    padding-left: 20px;
+                    position: relative;
+                    samp {
+                        position: absolute;
+                        width: 27%;
+                        height: 45%;
+                        background-color: $Ter;
+                        color: #278870;
+                        right: 10px;
+                        bottom: 230px;
+                        border-radius: 3px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    h4 {
+                        grid-column: 1/1;
+                        grid-row: 1/1;
+                    }
+                    p {
+                        grid-column: 1/1;
+                        grid-row: 2/2;
+                        margin-top: -5px;
+                    }
+                }
+            }
+        }
+    }
+    
+    footer {
+        background-color: rgb(58, 58, 58);
+        padding-left: 2rem;
+        padding-bottom: $forty;
+        display: flex;
+        flex-direction: column;
+        h5 {
+            color: $colfon;
+            font-family: "Shrikhand";
+            font-size: 1.2rem;
+            font-weight: lighter;
+            margin-bottom: 0;
+        }
+        ul {
+            padding: 0;
+            li {
+                list-style: none;
+                padding-bottom: 6px;
+                a,
+                i {
+                    margin-right: 20px;
+                    ;
+                    text-decoration: none;
+                    color: $colfon;
+                }
+            }
+        }
+    }
+    
+    .btn__menu {
+        height: 100px;
+        margin-top: 50px;
+        .menu__btn {
+            width: 35%;
+            height: $fifty;
+            display: flex;
+            margin-top: 4%;
+            margin-left: 25%;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            border-radius: 25px;
+            background: linear-gradient($Second, $Prim);
+            color: white;
+            box-shadow: 0px 10px 20px #aaa8a8;
+            &:hover {
+                background: linear-gradient($second--, $Prim--);
+                box-shadow: 5px 10px 20px #929191;
+            }
+        }
+    }
+    /*////////page2\\\\\\*/
+    
+    .img__bg {
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
+    }
+    
+    .fond__pilote {
+        position: relative;
+        background-color: $grip;
+        border-radius: 45px 45px 0px 0px;
+        margin-top: -50px;
+        padding-bottom: 10px;
+        .pilote {
+            margin: 0px 20px;
+        }
+    }
+    
+    .titre__h1 {
+        font-family: "Shrikhand";
+        font-size: 1.75rem;
+        margin: 0;
+        padding-top: 20px;
+    }
+    
+    .titre__h2 {
+        width: 60px;
+        border-bottom: 3px solid #99e2d0;
+        padding-bottom: 5px;
+        color: #3a3a3a;
+        font-weight: 400;
+    }
+    
+    .titre__h3 {
+        margin: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    .titre__h4 {
+        width: 300px;
+        height: 0px;
+        padding-left: 10px;
+        padding-bottom: 10px;
         font-size: 1.2rem;
     }
-}
+    
+    .menu__ingrédients {
+        grid-column: 1/1;
+        font-size: 1rem;
+        padding-left: 10px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    
+    .menu__prix {
+        padding-left: 20px;
+        font-weight: bold;
+    }
+    
+    .menu__font {
+        background-color: white;
+        height: 80px;
+        border-radius: 20px;
+        display: flex;
+        overflow: hidden;
+        margin: 0 15px 15px 0;
+        .menu__plat {
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: 80% 20% 0%;
+            grid-template-rows: 50% 40%;
+            align-items: center;
+            position: relative;
+        }
+    }
+    
+    .fond__pilote {
+         :nth-child(1) {
+            animation: pilot 0.4s ease-in-out;
+        }
+         :nth-child(2) {
+            animation: pilot 1.0s ease-in-out;
+        }
+         :nth-child(3) {
+            animation: pilot 1.4s ease-in-out;
+        }
+         :nth-child(4) {
+            animation: pilot 1.8s ease-in-out;
+        }
+        @keyframes pilot {
+            from {
+                transform: translateY(70px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0px);
+                opacity: 1;
+            }
+        }
+    }
+    /*//////////controle coeur debut \\\\\\\\\\\*/
+    
+    .pilote {
+        .coeurpilote:hover {
+            .fas.fa-heart {
+                opacity: 1;
+                transition: 0.3s ease-in-out;
+            }
+            .far.fa-heart {
+                opacity: 0;
+                transition: 0.3s ease-in-out;
+            }
+        }
+        .fas.fa-heart {
+            font-size: 1.5rem;
+            position: absolute;
+            right: 50px;
+            top: 30px;
+            background: linear-gradient($Second, $Prim);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            opacity: 0;
+        }
+        .far.fa-heart {
+            font-size: 1.5rem;
+            position: absolute;
+            right: 50px;
+            top: 30px;
+            opacity: 1;
+        }
+    }
+    /*/////////*********animation**********\\\\\\\\\\\*/
+    
+    .menu__animat {
+        position: absolute;
+        background-color: #99E2D0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 65px;
+        transform-origin: right 50%;
+        border-radius: 0px 20px 20px 0px;
+        transform: translateX(65px);
+        overflow: hidden;
+        transition-duration: 0.5s;
+        .menu__i {
+            left: 20px;
+            top: 25px;
+            font-size: 1.5rem;
+            color: white;
+            opacity: 1;
+            position: absolute;
+        }
+    }
+    
+    .menu__font:hover .menu__animat {
+        transform: translateX(0px);
+        transition: 0.5s ease-in-out;
+        .menu__i {
+            transform: rotate(360deg);
+            transition: 0.5s ease-in-out;
+        }
+    }
+    
+    .menu__font:hover {
+        .menu__plat {
+            grid-template-columns: 60% 0% 10%;
+        }
+    }
+    
+    // .menu__i :hover {
+    //     transform: rotate(180deg);
+    //     transition: rotate 1.5s ease-in-out;
+    // }
+    /*/////////*********animation**********\\\\\\\\\\\
 
-
-/*fin media querisen tete */
+/*/ /////////controle coeur page 2 \\\\\\\\\\\fin*/
+    /* media querisen tete */
+    
+    @media all and (max-width:961px) {
+        #reserv_1 {
+            font-size: 2.1rem;
+        }
+    }
+    
+    @media all and (min-width:961px) {
+        #reserv_2 {
+            font-size: 1.2rem;
+        }
+    }
+    /*fin media querisen tete */
