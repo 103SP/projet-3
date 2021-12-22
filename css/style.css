@@ -157,10 +157,11 @@ header {
 }
 
 h3 {
-  width: 50px;
-  border-bottom: 10px;
-  padding-bottom: 10px;
-  font-weight: 400;
+  margin-left: 20px;
+}
+
+h2 {
+  margin-left: 20px;
 }
 
 h6 {
