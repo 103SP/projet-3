@@ -488,6 +488,7 @@
     .loading {
         display: flex;
         justify-content: center;
+        position: fixed;
     }
     
     .loading::after {
@@ -495,14 +496,21 @@
         width: 50px;
         height: 50px;
         border: 10px solid $Prim;
-        border-top-color: #009579;
+        border-top-color: $Ter;
         border-radius: 50%;
-        animation: loading 1s ease infinite;
+        background-color: $Second;
+        animation: loading 3s ease;
+        animation-fill-mode: both;
+        z-index: 100;
     }
     
     @keyframes loading {
         to {
-            transform: rotate(1turn);
+            transform: rotate(4turn);
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
         }
     }
     /* “loading spinner fin */

@@ -468,6 +468,7 @@ footer ul li i {
 .loading {
   display: flex;
   justify-content: center;
+  position: fixed;
 }
 
 .loading::after {
@@ -475,14 +476,21 @@ footer ul li i {
   width: 50px;
   height: 50px;
   border: 10px solid #9356DC;
-  border-top-color: #009579;
+  border-top-color: #99E2D0;
   border-radius: 50%;
-  animation: loading 1s ease infinite;
+  background-color: #FF79DA;
+  animation: loading 3s ease;
+  animation-fill-mode: both;
+  z-index: 100;
 }
 
 @keyframes loading {
   to {
-    transform: rotate(1turn);
+    transform: rotate(4turn);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 /* “loading spinner fin */
