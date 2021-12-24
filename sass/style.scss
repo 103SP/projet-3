@@ -501,6 +501,16 @@
             display: flex;
             justify-content: space-evenly;
         }
+        footer {
+            text-align: center;
+        }
+        footer h5 {
+            color: $Prim;
+        }
+        .fonction h2 {
+            text-align: center;
+            padding-bottom: 40px;
+        }
     }
     /* “loading spinner debut */
     
