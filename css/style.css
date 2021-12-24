@@ -487,6 +487,14 @@ footer ul li i {
     display: flex;
     justify-content: space-evenly;
   }
+
+  footer {
+    text-align: center;
+  }
+
+  footer h5 {
+    color: #9356DC;
+  }
 }
 /* “loading spinner debut */
 .loading {
