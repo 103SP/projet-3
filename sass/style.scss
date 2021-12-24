@@ -485,10 +485,6 @@
     /*fin media querisen tete */
     /* “loading spinner debut */
     
-    .bac {
-        background-color: red;
-    }
-    
     .loading {
         display: flex;
         position: fixed;
@@ -509,11 +505,23 @@
     }
     
     @keyframes loading {
-        to {
-            transform: rotate(4turn);
-            opacity: 1;
-        }
         100% {
+            opacity: 0;
+            transform: rotate(4turn);
+            /*opacity: 1;*/
+        }
+    }
+    
+    .wait {
+        opacity: 1;
+        animation: wait 3s ease;
+    }
+    
+    @keyframes wait {
+        from {
+            opacity: 0;
+        }
+        to {
             opacity: 0;
         }
     }
