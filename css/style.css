@@ -474,6 +474,16 @@ footer ul li i {
     width: 300px;
   }
 }
+@media screen and (min-width: 961px) {
+  .restaurants .restaurants__box {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .restaurants .restaurants__box .restaurants__box__cart {
+    width: 20%;
+  }
+}
 /* “loading spinner debut */
 .loading {
   display: flex;
