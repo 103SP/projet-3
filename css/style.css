@@ -464,6 +464,16 @@ footer ul li i {
   }
 }
 /*fin media querisen tete */
+@media screen and (min-width: 961px) {
+  .fonction__liste ol {
+    flex-direction: row;
+    height: 60px;
+  }
+
+  .fonction .fonction__liste ol li {
+    width: 300px;
+  }
+}
 /* “loading spinner debut */
 .loading {
   display: flex;
