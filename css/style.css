@@ -457,8 +457,7 @@ footer ul li i {
   #reserv_1 {
     font-size: 2.1rem;
   }
-}
-@media all and (min-width: 961px) {
+
   #reserv_2 {
     font-size: 1.2rem;
   }
@@ -473,8 +472,7 @@ footer ul li i {
   .fonction .fonction__liste ol li {
     width: 300px;
   }
-}
-@media screen and (min-width: 961px) {
+
   .restaurants .restaurants__box {
     flex-direction: row;
     justify-content: space-evenly;
@@ -482,6 +480,12 @@ footer ul li i {
 
   .restaurants .restaurants__box .restaurants__box__cart {
     width: 20%;
+  }
+
+  ul {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
   }
 }
 /* “loading spinner debut */
