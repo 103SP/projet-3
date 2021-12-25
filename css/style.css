@@ -16,6 +16,11 @@ header {
   margin-bottom: 20px;
 }
 
+.img__header {
+  width: 230px;
+  height: 40px;
+}
+
 .btn__retour {
   font-size: 1.2rem;
   position: absolute;
