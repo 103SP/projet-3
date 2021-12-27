@@ -103,10 +103,7 @@
     }
     
     .fas.fa-heart {
-        font-size: 1.5rem;
-        position: absolute;
-        right: 25px;
-        bottom: 25px;
+        @include farfaheart;
         background: linear-gradient($Second, $Prim);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -114,10 +111,7 @@
     }
     
     .far.fa-heart {
-        font-size: 1.5rem;
-        position: absolute;
-        right: 25px;
-        bottom: 25px;
+        @include farfaheart;
         opacity: 1;
         /*//////////controle coeur \\\\\\\\\\\fin*/
     }
@@ -165,10 +159,7 @@
         }
     }
     
-    h3 {
-        margin-left: 20px;
-    }
-    
+    h3,
     h2 {
         margin-left: 20px;
     }
@@ -188,7 +179,7 @@
         padding-top: 20px;
         padding-bottom: 30px;
         background-color: $colfon;
-        .restaurants__box {
+        &__box {
             display: flex;
             flex-direction: column;
             align-items: center;
