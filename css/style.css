@@ -94,7 +94,7 @@ header {
   transition: 0.3s ease-in-out;
 }
 .coeurpilote:hover .far.fa-heart {
-  opacity: 0;
+  opacity: 1;
   transition: 0.3s ease-in-out;
 }
 
@@ -394,7 +394,7 @@ footer ul li i {
   transition: 0.3s ease-in-out;
 }
 .pilote .coeurpilote:hover .far.fa-heart {
-  opacity: 0;
+  opacity: 1;
   transition: 0.3s ease-in-out;
 }
 .pilote .fas.fa-heart {
